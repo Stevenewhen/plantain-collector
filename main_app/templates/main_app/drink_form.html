@@ -4,7 +4,9 @@
   {% if object %}
     <h1>Edit <span class="teal-text">{{object.name}}</span></h1>
   {% else %}
+  <div class="content-container">
     <h1>Add Drink</h1>
+
   {% endif %}
   <!-- Leaving the action empty makes the form post to the same url used to display it -->
   <form action="" method="post">
@@ -16,4 +18,5 @@
     </table>
     <input type="submit" value="Submit!" class="btn">
   </form>
+</div>
 {% endblock %}
