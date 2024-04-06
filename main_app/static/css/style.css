@@ -4,7 +4,7 @@ body {
     background-color: #F5D547;
 }
 
-h2 {
+h2, h3, h4 {
     font-family: "Quicksand", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -12,7 +12,7 @@ h2 {
 }
 
 h1 {
-    font-size: 1rem;
+    font-size: 3rem !important;
     font-family: "Quicksand", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -45,6 +45,13 @@ button:hover {
     object-fit: cover;
     object-position: 25% 25%;
     border-radius: 30%;
+}
+
+.idx-img2 {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: 25% 25%;
 }
 
 .nav-wrapper {
@@ -107,6 +114,11 @@ padding: 20px;
 .content-container {
     background-color: white;
     padding: 20px;
+}
+
+.content-container2 {
+    background-color: white;
+    padding: 1px;
 }
 
 tbody{
